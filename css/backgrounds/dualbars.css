@@ -1,0 +1,19 @@
+#background .bar {
+	position: absolute;
+}
+
+#topleft {
+	position: absolute;
+	top: 0; left: 0;
+	width: 50%;	height: 50%;
+	overflow: hidden;
+	-webkit-transform: scaleY(-1) scaleX(-1);
+	transform: scaleY(-1) scaleX(-1);
+}
+
+#bottomright {
+	position: absolute;
+	left: 50%; top: 50%;
+	width: 50%;	height: 50%;
+	overflow: hidden;
+}

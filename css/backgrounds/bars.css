@@ -1,0 +1,8 @@
+#background .bar {
+	position: absolute;
+}
+
+#background {
+	-webkit-transform: scaleY(-1);
+	transform: scaleY(-1);
+}
